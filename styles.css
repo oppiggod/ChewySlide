@@ -50,7 +50,6 @@ nav ul li a:hover {
     top: 0; /* Align to the top */
     left: 0; /* Align to the left */
     z-index: -1; /* Send the image behind the text */
-    opacity: 0.7; /* Add transparency to the image */
 }
 
 /* Content Section Styles */
