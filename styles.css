@@ -33,22 +33,23 @@ nav ul li a:hover {
     text-decoration: underline; /* Underline on hover */
 }
 
-/* Hero Section Styles */
 .hero {
     background-color: #1e1e1e; /* Dark hero background */
     padding: 2rem;
     text-align: center;
     position: relative; /* Position relative for absolute elements */
+    overflow: hidden; /* Prevent overflow of the hero image */
 }
 
 .hero-image {
     width: 100%; /* Make the image full width */
     height: auto; /* Maintain aspect ratio */
     position: absolute; /* Position it behind content */
-    top: 100; /* Align to the top */
-    left: 0; /* Align to the left */
+    top: 50%; /* Center the image vertically */
+    left: 50%; /* Center the image horizontally */
+    transform: translate(-50%, -50%); /* Adjust position to center */
     z-index: -1; /* Send the image behind the text */
-    opacity: 0.7; /* Add some transparency to the image */
+    min-height: 100%; /* Ensure it covers the full height */
 }
 
 /* Content Section Styles */
