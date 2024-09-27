@@ -43,14 +43,13 @@ nav ul li a:hover {
 
 .hero-image {
     width: 100%; /* Make the image full width */
-    height: auto; /* Maintain aspect ratio */
+    height: 100vh; /* Set a specific height for the hero section */
+    object-fit: cover; /* Cover the area without distortion */
     position: absolute; /* Position it behind content */
-    top: 50%; /* Center the image vertically */
-    left: 50%; /* Center the image horizontally */
-    transform: translate(-50%, -50%); /* Adjust position to center */
+    top: 0; /* Align to the top */
+    left: 0; /* Align to the left */
     z-index: -1; /* Send the image behind the text */
-    min-height: 100%; /* Ensure it covers the full height */
-    opacity: 0.7; /* Add some transparency to the image */
+    opacity: 0.7; /* Add transparency to the image */
 }
 
 /* Content Section Styles */
