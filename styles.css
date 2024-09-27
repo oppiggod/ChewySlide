@@ -38,6 +38,17 @@ nav ul li a:hover {
     background-color: #1e1e1e; /* Dark hero background */
     padding: 2rem;
     text-align: center;
+    position: relative; /* Position relative for absolute elements */
+}
+
+.hero-image {
+    width: 100%; /* Make the image full width */
+    height: auto; /* Maintain aspect ratio */
+    position: absolute; /* Position it behind content */
+    top: 0; /* Align to the top */
+    left: 0; /* Align to the left */
+    z-index: -1; /* Send the image behind the text */
+    opacity: 0.7; /* Add some transparency to the image */
 }
 
 /* Content Section Styles */
@@ -58,7 +69,7 @@ nav ul li a:hover {
 }
 
 .card:hover {
-    transform: scale(1.05) !important; /* Enforce the scaling */
+    transform: scale(1.03); /* Reduced zoom effect */
 }
 
 .card img {
@@ -75,21 +86,4 @@ footer {
     background-color: #1e1e1e; /* Dark footer */
     text-align: center;
     padding: 1rem;
-}
-
-.hero {
-    background-color: #1e1e1e; /* Dark hero background */
-    padding: 2rem;
-    text-align: center;
-    position: relative; /* Position relative for absolute elements */
-}
-
-.hero-image {
-    width: 100%; /* Make the image full width */
-    height: auto; /* Maintain aspect ratio */
-    position: absolute; /* Position it behind content */
-    top: 0; /* Align to the top */
-    left: 0; /* Align to the left */
-    z-index: -1; /* Send the image behind the text */
-    opacity: 0.7; /* Add some transparency to the image */
 }
