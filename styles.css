@@ -1,0 +1,78 @@
+/* General Body Styles */
+body {
+    background-color: #121212; /* Dark background */
+    color: #ffffff; /* Light text color */
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Styles */
+header {
+    background-color: #1e1e1e; /* Darker header */
+    padding: 1rem;
+}
+
+/* Navigation Styles */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 1rem;
+}
+
+nav ul li a {
+    color: #ffffff; /* Light color for links */
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+/* Hero Section Styles */
+.hero {
+    background-color: #1e1e1e; /* Dark hero background */
+    padding: 2rem;
+    text-align: center;
+}
+
+/* Content Section Styles */
+.content {
+    padding: 2rem;
+}
+
+/* Card Styles */
+.card {
+    background-color: #2a2a2a; /* Dark card background */
+    border: 1px solid #444; /* Dark border */
+    border-radius: 8px;
+    overflow: hidden;
+    width: calc(33.333% - 1rem); /* Three cards per row */
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s; /* Smooth transition for scaling */
+}
+
+.card:hover {
+    transform: scale(1.03); /* Reduced zoom effect */
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+}
+
+.card h4 {
+    padding: 1rem;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #1e1e1e; /* Dark footer */
+    text-align: center;
+    padding: 1rem;
+}
