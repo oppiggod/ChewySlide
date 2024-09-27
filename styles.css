@@ -42,7 +42,7 @@ nav ul li a:hover {
     overflow: hidden; /* Prevent overflow of the hero image */
 }
 
-.hero-image {
+.hero-image2 {
     width: 100%; /* Make the image full width */
     height: 100vh; /* Set a specific height for the hero section */
     object-fit: cover; /* Cover the area without distortion */
