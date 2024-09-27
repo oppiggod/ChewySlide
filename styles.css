@@ -58,7 +58,7 @@ nav ul li a:hover {
 }
 
 .card:hover {
-    transform: scale(1.03); /* Reduced zoom effect */
+    transform: scale(1.03) !important; /* Enforce the scaling */
 }
 
 .card img {
