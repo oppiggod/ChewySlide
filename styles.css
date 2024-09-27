@@ -50,7 +50,7 @@ nav ul li a:hover {
 }
 
 .card:hover {
-    transform: scale(0.05); /* Zoom effect on hover */
+    transform: scale(1.05); /* Zoom effect on hover */
 }
 
 .card img {
