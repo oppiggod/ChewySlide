@@ -6,6 +6,38 @@
     <title>All Projects - ChewySlide</title>
     <link rel="stylesheet" href="styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        /* Additional styles for the All Projects page */
+        .all-projects {
+            padding: 2rem;
+        }
+
+        .grid {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            gap: 1.5rem;
+        }
+
+        .card {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            overflow: hidden;
+            width: calc(33.333% - 1rem); /* Three cards per row */
+            text-align: center;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .card img {
+            width: 100%;
+            height: auto;
+        }
+
+        .card h4 {
+            padding: 1rem;
+        }
+    </style>
 </head>
 <body>
     <!-- Header and Navigation -->
@@ -39,7 +71,19 @@
                 <img src="project3.jpg" alt="Project 3">
                 <h4>Project 3</h4>
             </div>
-            <!-- Add more project cards as needed -->
+            <div class="card">
+                <img src="project4.jpg" alt="Project 4">
+                <h4>Project 4</h4>
+            </div>
+            <div class="card">
+                <img src="project5.jpg" alt="Project 5">
+                <h4>Project 5</h4>
+            </div>
+            <div class="card">
+                <img src="project6.jpg" alt="Project 6">
+                <h4>Project 6</h4>
+            </div>
+            <!-- Add more project cards as needed, following the alphabetical order -->
         </div>
     </section>
 
