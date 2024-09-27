@@ -45,7 +45,7 @@ nav ul li a:hover {
     width: 100%; /* Make the image full width */
     height: auto; /* Maintain aspect ratio */
     position: absolute; /* Position it behind content */
-    top: 0; /* Align to the top */
+    top: 1; /* Align to the top */
     left: 0; /* Align to the left */
     z-index: -1; /* Send the image behind the text */
     opacity: 0.7; /* Add some transparency to the image */
