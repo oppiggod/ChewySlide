@@ -33,6 +33,7 @@ nav ul li a:hover {
     text-decoration: underline; /* Underline on hover */
 }
 
+/* Hero Section Styles */
 .hero {
     background-color: #1e1e1e; /* Dark hero background */
     padding: 2rem;
